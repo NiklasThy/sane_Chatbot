@@ -27,7 +27,7 @@
   </category>
   <category>
       <pattern>
-          Wie geht es dir?
+          Wie geht es dir
       </pattern>
       <template>
           <random>
@@ -51,7 +51,7 @@
       Wie gehts dir?
       </pattern>
       <template>
-          <srai>Wie geht es dir?</srai>
+          <srai>Wie geht es dir</srai>
       </template>
   </category>
   <category>
@@ -59,7 +59,7 @@
       Wie fühlst du dich?
       </pattern>
       <template>
-          <srai>Wie geht es dir?</srai>
+          <srai>Wie geht es dir</srai>
       </template>
   </category>
   <category>
@@ -67,7 +67,7 @@
       Alles okay bei dir?
       </pattern>
       <template>
-          <srai>Wie geht es dir?</srai>
+          <srai>Wie geht es dir</srai>
       </template>
   </category>
 </aiml>
