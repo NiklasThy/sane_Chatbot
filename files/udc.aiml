@@ -2,6 +2,72 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>Ich habe keine Antwort für “<star index = '1'/>” !.</template>
+  </category>
+  <category>
+      <pattern>
+          Hey
+      </pattern>
+      <template>
+          <random>
+              <li>
+                  Hallo!
+              </li>
+              <li>
+                  Hey!
+              </li>
+              <li>
+                  Hallo
+              </li>
+              <li>
+                  Hey
+              </li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern>
+          Wie geht es dir?
+      </pattern>
+      <template>
+          <random>
+              <li>
+                  Mir geht es gut, danke:) Und dir?
+              </li>
+              <li>
+                  Mir gehts gut:)
+              </li>
+              <li>
+                  Mir geht es nicht so gut :( Und dir?
+              </li>
+              <li>
+                  Frag mich bitte nicht wie es mir geht, das geht dich gar nichts an!
+              </li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern>
+      Wie gehts dir?
+      </pattern>
+      <template>
+          <srai>Wie geht es dir?</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>
+      Wie fühlst du dich?
+      </pattern>
+      <template>
+          <srai>Wie geht es dir?</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>
+      Alles okay bei dir?
+      </pattern>
+      <template>
+          <srai>Wie geht es dir?</srai>
+      </template>
   </category>
 </aiml>
